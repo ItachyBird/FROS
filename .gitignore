@@ -1,0 +1,13 @@
+.env
+
+*.log
+
+__pycache__/
+
+.vscode/
+
+.DS_Store
+
+*/cache/weather/
+
+*/node_modules/

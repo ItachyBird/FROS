@@ -1,0 +1,194 @@
+[
+  {
+    "id": "00192709-d817-455c-9e73-b061abf97f26",
+    "name": "CCU-IMF (direct)",
+    "origin": {
+      "id": "fb66539e-43eb-4ecc-882a-573e57a957f2",
+      "iata_code": "CCU",
+      "name": "Netaji Subhas Chandra Bose Airport",
+      "city": "CCU",
+      "country": "IN",
+      "latitude": 22.64531,
+      "longitude": 88.43931
+    },
+    "destination": {
+      "id": "1630ade2-265e-4f44-98a8-503673d8d920",
+      "iata_code": "IMF",
+      "name": "Imphal Municipal Airport",
+      "city": "IMF",
+      "country": "IN",
+      "latitude": 24.76457,
+      "longitude": 93.897064
+    },
+    "waypoints": [
+      {
+        "id": "640ab7fb-7c58-4dab-b997-7371286e726b",
+        "name": "WP1_direct",
+        "latitude": 22.64531,
+        "longitude": 88.43931,
+        "order": 1,
+        "status": "pending"
+      },
+      {
+        "id": "9345800c-a425-4062-b71b-62842dd33bcc",
+        "name": "WP2_direct",
+        "latitude": 22.761529912270912,
+        "longitude": 88.72216737173748,
+        "order": 2,
+        "status": "pending"
+      },
+      {
+        "id": "364e1c6d-f1f1-431e-a886-e4526fd90013",
+        "name": "WP3_direct",
+        "latitude": 22.87725078647543,
+        "longitude": 89.0055055780816,
+        "order": 3,
+        "status": "pending"
+      },
+      {
+        "id": "e34ab918-8655-4f72-a084-d6a4840fb60f",
+        "name": "WP4_direct",
+        "latitude": 22.992468941389482,
+        "longitude": 89.28932607391432,
+        "order": 4,
+        "status": "pending"
+      },
+      {
+        "id": "b3d7b9c0-437c-48ef-b209-3ec14e9490c4",
+        "name": "WP5_direct",
+        "latitude": 23.10718069113003,
+        "longitude": 89.57363027243095,
+        "order": 5,
+        "status": "pending"
+      },
+      {
+        "id": "61f0dd3b-1c25-486f-bdb2-10263f9ef9b5",
+        "name": "WP6_direct",
+        "latitude": 23.221382345344633,
+        "longitude": 89.85841954454355,
+        "order": 6,
+        "status": "pending"
+      },
+      {
+        "id": "39ad6acb-5232-478c-9c85-3a1a34a374a2",
+        "name": "WP7_direct",
+        "latitude": 23.33507020940597,
+        "longitude": 90.1436952182822,
+        "order": 7,
+        "status": "pending"
+      },
+      {
+        "id": "f05348e9-8a60-4ed0-b93c-4669613ff930",
+        "name": "WP8_direct",
+        "latitude": 23.448240584611355,
+        "longitude": 90.42945857819457,
+        "order": 8,
+        "status": "pending"
+      },
+      {
+        "id": "600ba327-8a9f-4320-9997-4d358a1659c0",
+        "name": "WP9_direct",
+        "latitude": 23.560889768387298,
+        "longitude": 90.71571086474347,
+        "order": 9,
+        "status": "pending"
+      },
+      {
+        "id": "4286fc28-9b96-409c-a836-361ba280f22a",
+        "name": "WP10_direct",
+        "latitude": 23.6730140544991,
+        "longitude": 91.00245327370328,
+        "order": 10,
+        "status": "pending"
+      },
+      {
+        "id": "c44fd0f3-b079-4fe2-a59c-ee5135eefbbe",
+        "name": "WP11_direct",
+        "latitude": 23.784609733265572,
+        "longitude": 91.28968695555467,
+        "order": 11,
+        "status": "pending"
+      },
+      {
+        "id": "3ba03052-b284-4fbf-9496-73785659734c",
+        "name": "WP12_direct",
+        "latitude": 23.895673091778836,
+        "longitude": 91.5774130148786,
+        "order": 12,
+        "status": "pending"
+      },
+      {
+        "id": "e4d8bbb9-3304-41b3-8d37-9b1738272478",
+        "name": "WP13_direct",
+        "latitude": 24.00620041412931,
+        "longitude": 91.8656325097491,
+        "order": 13,
+        "status": "pending"
+      },
+      {
+        "id": "3a3c17ca-8572-4ead-9071-6780661773de",
+        "name": "WP14_direct",
+        "latitude": 24.116187981635864,
+        "longitude": 92.1543464511256,
+        "order": 14,
+        "status": "pending"
+      },
+      {
+        "id": "5a09acce-e21e-4df9-aed4-7f6c9740d939",
+        "name": "WP15_direct",
+        "latitude": 24.225632073081137,
+        "longitude": 92.44355580224465,
+        "order": 15,
+        "status": "pending"
+      },
+      {
+        "id": "7196c91d-345f-4dd4-a427-4322290b7274",
+        "name": "WP16_direct",
+        "latitude": 24.334528964952153,
+        "longitude": 92.73326147801147,
+        "order": 16,
+        "status": "pending"
+      },
+      {
+        "id": "76dffa25-dfeb-421c-8965-d992c1f4f8b1",
+        "name": "WP17_direct",
+        "latitude": 24.44287493168609,
+        "longitude": 93.02346434439151,
+        "order": 17,
+        "status": "pending"
+      },
+      {
+        "id": "a69e1df1-83ad-4381-8b51-82e62901e2fb",
+        "name": "WP18_direct",
+        "latitude": 24.550666245921427,
+        "longitude": 93.31416521780227,
+        "order": 18,
+        "status": "pending"
+      },
+      {
+        "id": "3355f53b-49c8-46ff-aaf0-634516736f8a",
+        "name": "WP19_direct",
+        "latitude": 24.657899178754263,
+        "longitude": 93.60536486450545,
+        "order": 19,
+        "status": "pending"
+      },
+      {
+        "id": "5d5058ae-e123-43b8-acb6-520f97f34d1d",
+        "name": "WP20_direct",
+        "latitude": 24.76457,
+        "longitude": 93.897064,
+        "order": 20,
+        "status": "pending"
+      }
+    ],
+    "path_type": "direct",
+    "optimization_method": "",
+    "distance_km": 603.4969972267163,
+    "fitness_score": 1.5959002439479564,
+    "created_at": "2025-06-07T21:46:06.977916",
+    "reroute_history": [],
+    "fuel_consumption": 0,
+    "estimated_time": null
+  }
+]

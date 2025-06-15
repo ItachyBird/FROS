@@ -1,0 +1,26 @@
+meta {
+  name: Generate Routes
+  type: http
+  seq: 8
+}
+
+post {
+  url: {{URL}}/api/routes/generate
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "origin": "CCU",
+    "destination": "DMU",
+    "aircraft_model": "Jet",
+    "optimization_method": "aco"
+  //   "excluded_areas": [
+  //     {
+  //       "center": {"latitude": 25.0, "longitude": 75.0},
+  //       "radius_km": 100
+  //     }
+  //   ]
+  }
+}

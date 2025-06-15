@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Copies your .env directly into the container
+    env_file: .env
+    ports:
+      - "8000:8000"          # host:container
+    volumes:
+      # Hot-reload in dev by mounting the code; comment out in prod
+      - ./:/app
+      # Persist logs
+      - ./logs:/app/logs
+      # Persist cached airport / route files
+      - ./cache:/app/cache
+    depends_on:
+      - redis
+    command: [
+      "python", "-m",
+      "uvicorn", "app:app",
+      "--host", "0.0.0.0",
+      "--port", "8000",
+      "--workers", "4"
+    ]
+
+volumes:
+  redis-data:

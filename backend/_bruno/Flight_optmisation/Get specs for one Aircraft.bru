@@ -1,0 +1,19 @@
+meta {
+  name: Get specs for one Aircraft
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{URL}}/api/aircraft/:model?mtow_kg=55364.15
+  body: none
+  auth: inherit
+}
+
+params:query {
+  mtow_kg: 55364.15
+}
+
+params:path {
+  model: Jet
+}

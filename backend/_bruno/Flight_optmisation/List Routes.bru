@@ -1,0 +1,15 @@
+meta {
+  name: List Routes
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{URL}}/api/airports/routes?country_code=IN
+  body: none
+  auth: inherit
+}
+
+params:query {
+  country_code: IN
+}

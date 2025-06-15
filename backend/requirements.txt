@@ -1,0 +1,9 @@
+fastapi
+httpx
+numpy
+pandas
+pydantic
+python-dotenv
+redis
+uvicorn
+geopy

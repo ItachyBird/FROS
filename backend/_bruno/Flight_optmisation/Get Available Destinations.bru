@@ -1,0 +1,15 @@
+meta {
+  name: Get Available Destinations
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{URL}}/api/airports/:source/destinations
+  body: none
+  auth: inherit
+}
+
+params:path {
+  source: CCU
+}
